@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Heart College(Autonomous)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .navbar{
+            margin-bottom: 0px;
+        }
+        .jumbotron{
+            background-image: url('images/1.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color:red;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: bolder;
+            margin-bottom: 0px;
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            font-style: italic;
+            text-transform: capitalize;
+            text-indent: 100px;
+            line-height: 29px;
+            word-spacing: 5px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default" style="background-color: aqua;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> SHC</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="register/">Register</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			   <li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container-fluid text-center">
+            <h1>Sacred Heart College(Autonomous)</h1>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="{% static 'image/2.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/3.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/4.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/5.jpg' %}" height="250px" width="300">
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="{% static 'image/6.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/7.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/10.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-3">
+                <img src="{% static 'image/11.jpg' %}" height="250px" width="300">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="{% static 'image/2.jpg' %}" height="250px" width="300">
+            </div>
+            <div class="col-sm-9">
+                <p>In 2007 Autonomous Status was conferred on to the entire College and the College
+                    opened itself to admit girl students in UG programmes. In the very next year we introduced Choice 
+                    Based Credit System (CBCS) was introduced. Besides many Undergraduate and postgraduate 
+                    programmes from the Thiruvalluvar University, the AICTE approved MCA programme.The Coat of arms itself is clear in its significance.
+                    The lotus stands for purity and integrity. It is resting on a sea of blue, 
+                    a colour denoting the Blessed Virgin Mary, the chosen Mother of Jesus Christ.
+                   The heart inside a cross is the Heart of Jesus who was crucified to redeem the humankind. 
+                   The ring of thorns around the Heart tells us that the Heart of Jesus loves us even to the point of suffering. 
+                   The open book is the symbol of knowledge that the college imparts. 
+                   Sacred Heart College is named after the Sacred Heart of Jesus Christ Himself.</p>
+            </div>
+            <div class="row">
+            <div class="jumbotron text-center">
+                <h3>Copyright © 2022 | All Right Reserved.</h3>
+                </div>
+                </div>
+</body>
+</html>
